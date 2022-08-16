@@ -12,6 +12,10 @@ public class Main
         d--;
         return isNegativoAux(a, d);
     }
+
+    public static int soma (int a, int b){
+        
+    }
   
     
     
