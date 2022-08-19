@@ -42,7 +42,9 @@ public class Main
     }
   
     public static boolean maiorQue (a, b){
-        
+
+        if(isNegativo(a) && isNegativo(b))
+            return maiorQue(a++, b++);
     }
     
     public static boolean menorQue (a, b) {
@@ -66,4 +68,4 @@ public class Main
 
 	}
 }
-//fazer: soma, subtracao, equidade, nao-equidade, maior que, maior igual, menor que, menor igual, multiplicacao e divisao
+//fazer: soma, subtracao, maior que, maior igual, menor que, menor igual, multiplicacao e divisao, resto e módulo (valor absoluto)
